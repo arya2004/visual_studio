@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HelloWorldV2
 {
-    internal class IdliSambar : Fevicol
+    internal class IdliSambar : Class2
     {
 
     }
