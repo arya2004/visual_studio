@@ -12,33 +12,34 @@ namespace HelloWorldV2
     {
         static void Main(string[] args)
         {
-            // MaxSlidingWindow();
-           Class2 class2 = new Class2();
-           // class2.AddTwoNumbers();
-            ListNode n = new ListNode();
-            ListNode n1 = new ListNode();
-            ListNode n2 = new ListNode();
-            n1.val = 6;
-            n2.val = 5;
-            n1.next = new ListNode();
-            n2.next = new ListNode();
-            n1.next.val = 6;
-            n2.next.val = 7;
-            n1.next.next = new ListNode();
-            n2.next.next = new ListNode();
-            n1.next.next.val = 8;
-            //n2.next.next.val = 9;
-            ListNode n4 = new ListNode();
-            ListNode n5 = new ListNode();
+           // // MaxSlidingWindow();
+           //Class2 class2 = new Class2();
+           //// class2.AddTwoNumbers();
+           // ListNode n = new ListNode();
+           // ListNode n1 = new ListNode();
+           // ListNode n2 = new ListNode();
+           // n1.val = 6;
+           // n2.val = 5;
+           // n1.next = new ListNode();
+           // n2.next = new ListNode();
+           // n1.next.val = 6;
+           // n2.next.val = 7;
+           // n1.next.next = new ListNode();
+           // n2.next.next = new ListNode();
+           // n1.next.next.val = 8;
+           // //n2.next.next.val = 9;
+           // ListNode n4 = new ListNode();
+           // ListNode n5 = new ListNode();
 
-            n = class2.AddTwoNumbers(n1,n2);
-            while(n != null)
-            {
-                Console.WriteLine(n.val);
-                n = n.next;
-            }
+           // n = class2.AddTwoNumbers(n1,n2);
+           // while(n != null)
+           // {
+           //     Console.WriteLine(n.val);
+           //     n = n.next;
+           // }
 
-
+            mergesort mergesort = new mergesort();
+            
         }
         public static int[] MaxSlidingWindow2(int[] nums, int k)
         {
